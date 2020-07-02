@@ -1,6 +1,7 @@
 .page{
     padding-left: 15%;}
 .navbar{
+    background-color: #666633;
     border-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -8,6 +9,7 @@
     
     width:80%;}
 .title{
+    color: white;
     margin-left: 20px;}
 .button{
     border-color: black;
@@ -20,7 +22,7 @@
 .titlediv{
     margin-top: -15px;
     height: 20px;
-    width: 20%;
+    width: 30%;
     display: inline-block; }
 .buttondiv{
     margin-top: -30px;
@@ -30,6 +32,7 @@
     display: inline-block;}
 
 .map{
+    background-color: #666633;
     border-color: black;
     border-style: solid;
     width: 80%;
@@ -42,6 +45,7 @@
 }
 
 .table{
+    background-color: #666633;
     border-color: black;
     border-style: solid;
     width: 80%;
