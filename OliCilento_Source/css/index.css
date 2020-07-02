@@ -1,0 +1,49 @@
+.page{
+    padding-left: 15%;}
+.navbar{
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid; 
+    
+    width:80%;}
+.title{
+    margin-left: 20px;}
+.button{
+    border-color: black;
+    border-radius: 5px;
+    font-size: medium;
+    margin-bottom: 15px;}
+.button:hover{
+    background-color: black;
+    color: white;}
+.titlediv{
+    margin-top: -15px;
+    height: 20px;
+    width: 20%;
+    display: inline-block; }
+.buttondiv{
+    margin-top: -30px;
+    text-align: right;
+    margin-left: 90px;
+    width: 70%;
+    display: inline-block;}
+
+.map{
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+    margin-top: -5px;
+}
+.image{
+    width:100%;
+    height:auto;
+    margin-bottom: -4px;
+}
+
+.table{
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+    margin-top: -5px;
+}

@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="UTF-8">
     <title>OilCilento</title>
 </head>
 <body>
-    <h1>Oli Cilento</h1>
-
-    <a href="login.html"> Login </a>
-
-
-
-
+    <div class="page">
+        <div class="navbar">
+            <div class="titlediv"><h1 class="title">Oli Cilento</h1></div>
+            <div class="buttondiv">
+                <button class="button">Registrati come produttore</button>
+                <button class="button"><a href="login.html"> Login </a></button>
+            </div>
+        </div>
+        <div class="map">
+            <img class="image" src="css/images/cilento.png">
+        </div>
+        <div class="table">
+            <h1 class="title">Ricerca produttore:</h1>
+            <form>
+                <select name="Quantità">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                    <option value="60">30</option>
+                </select>
+                <select name="Classificazione">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                </select>
+                <input type="submit" value="Avvia Ricerca">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
