@@ -35,8 +35,7 @@ function retriveData() {
     for(i = 0; i < data_produttori.length; i++ ){
         if(data_produttori[i].email == email && data_produttori[i].password == password ){
             alert("Utente collegato");
-            window.location.href = "index.html";
-            login(data_produttori[i]);
+            window.location.href = "paginaPersonale.html";
             return true;
         }
 

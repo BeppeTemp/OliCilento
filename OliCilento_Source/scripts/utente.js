@@ -1,24 +1,9 @@
-class Utente {
-
-    constructor(email, nome, cognome, anni, provenienza, telefono, password, ciao) {
-        this.nome = nome;
-        this.cognome = cognome;
-        this.anni = anni;
-        this.provenienza = provenienza;
-        this.telefono = telefono;
-        this.password = password;
-        this.email = email;
-        this.ciao = ciao
-    }
-}
 
 
+let params = new URLSearchParams(location.search);
 
-function login(utente) {
 
-    let utenteLoggato = new Utente(utente.email, utente.nome, utente.cognome, utente.anni, utente.provenienza, utente.telefono, utente.password, utente.ciao);
+let mail = params.get('email')
+let passwd = params.get('password')
 
-    console.log(utenteLoggato);
-
-    return utenteLoggato;
-}
+console.log(mail + " " + passwd)
