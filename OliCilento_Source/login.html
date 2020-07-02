@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Login OilCilento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <script src="scripts/data.js"> </script>
     <script src="scripts/utente.js"></script>
 </head>
 <body>
-    <h1>Oli Cilento</h1>
-    <h3> Login </h3>
+    <header>
+        <h1>Oli Cilento</h1>
+    </header>
 
-    <form id="myForm" method="get">
-        <input type="text"  name="email" placeholder="E-Mail">
-        <input type="password" name="password" placeholder="Password">
-        <input type="button" value="Login" onclick="retriveData()">
-    </form>
+    <div>
+        <h1>Login</h1>
+        <form action="" method="post">
+            <input type="text" placeholder="E-Mail" name="mail" required><br>
+
+            <input type="password" placeholder="Password" name="password" required><br>
+
+            <input class="button" type="submit" value="Login"><br>
+        </form>
+    </div>
+
 
 </body>
 </html>
