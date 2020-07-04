@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta charset="UTF-8">
+    <title>OilCilento</title>
+</head>
+<style>
+    body {
+        background-image: url("css/images/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+<body>
+    <div class="page">
+        <div class="navbar">
+            <div class="titlediv"><h1 class="title">Oli Cilento</h1></div>
+            <div class="buttondiv">
+                <button class="button">Registrati come produttore</button>
+                <button class="button"><a href="login.html"> Login </a></button>
+            </div>
+        </div>
+        <div class="map">
+            <img class="image" src="css/images/cilento.png">
+        </div>
+        <div class="table">
+            <h1 class="title">Ricerca produttore:</h1>
+            <form>
+                <select name="Quantità">
+                    <option value="0">Quantità Ricercata</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                    <option value="60">30</option>
+                </select>
+                <select name="Classificazione">
+                    <option value="0">Classificazione Ricercata</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                </select>
+                <input type="submit" placeholder="Avvia Ricerca">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
