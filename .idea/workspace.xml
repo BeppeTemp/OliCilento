@@ -1,44 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OliCilento:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="736da491-38fb-41df-92ae-84e75ffbe79c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/OliCilento_Source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/css/registrazione.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/paginaPersonale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/produttore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/registrazione.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/scripts/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OliCilento_Source/scripts/utente.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Produttore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletRegistrazione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/paginaPersonale.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/produttore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/registrazione.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/registrazione.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/registrazione.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/produttore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/registrazione.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/utente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/registrazione.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/registrazione.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/paginaPersonale.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/produttore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registrazione.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scripts/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scripts/utente.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Lorenzo" pattern="" />
+  </component>
   <component name="ProjectId" id="1eDzNg4QbczfgLb7AovojMxHwn0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\loren\Desktop\OliCilento\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.361">
     <configuration name="Tomcat 9.0.361" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.361" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="OliCilento:war exploded">
@@ -47,7 +122,9 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_361_OliCilento_Source" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
@@ -75,6 +152,50 @@
         </option>
       </method>
     </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.361" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="OliCilento:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/OliCilento_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_OliCilento_Source" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OliCilento:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,7 +207,92 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593870912979</updated>
+      <workItem from="1593870914588" duration="9886000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="353" key="#Template_Data_Languages" timestamp="1593877039653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="353" key="#Template_Data_Languages/0.0.1920.1040@0.0.1920.1040" timestamp="1593877039653" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1593879764938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593879764938" />
+    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593879702221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593879702221" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593877010885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593877010885" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1593880910242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910242" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1593880910241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910241" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1593880910241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910241" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1593880910242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910242" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1593880910230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910230" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1593880910229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593880910229" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1593871504399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593871504399" />
   </component>
 </project>

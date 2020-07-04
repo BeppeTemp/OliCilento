@@ -3,4 +3,35 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/ServletLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/ServletLogout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Registrazione</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletRegistrazione</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registrazione</servlet-name>
+        <url-pattern>/ServletRegistrazione</url-pattern>
+    </servlet-mapping>
+    
+
+
+
 </web-app>

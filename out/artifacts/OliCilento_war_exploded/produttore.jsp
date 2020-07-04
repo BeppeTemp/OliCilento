@@ -1,5 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<%--
+  Created by IntelliJ IDEA.
+  User: loren
+  Date: 04/07/2020
+  Time: 16:35
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <title>Produttore</title>
@@ -16,15 +23,15 @@
     </header>
 
 
-    <h1> Vincenzo Malandrino</h1>
-    <p>Età: 58</p>
-    <p>Paese di provenienza: Perdifumo</p>
-    <p>Classificazione: A</p>
-    <p>Numero di telefono: 39336259482</p>
-    <p>Numero di telefono: 39336259482</p>
-    <p>Quantità disponibile: 50</p>
+<h1> Vincenzo Malandrino</h1>
+<p>Età: 58</p>
+<p>Paese di provenienza: Perdifumo</p>
+<p>Classificazione: A</p>
+<p>Numero di telefono: 39336259482</p>
+<p>Numero di telefono: 39336259482</p>
+<p>Quantità disponibile: 50</p>
 
-    <textarea disabled rows="15" cols="110">
+<textarea disabled rows="15" cols="110">
     Tuttavia, perché voi intendiate da dove sia nato tutto questo errore,
     di quelli che incolpano il piacere ed esaltano il dolore, io spiegherò tutta la questione,
     e presenterò le idee espresse dal famoso esploratore della verità, vorrei quasi dire dal costruttore
