@@ -3,11 +3,11 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="UTF-8">
-    <title>OilCilento</title>
+    <title>OliCilento</title>
 </head>
 <style>
     body {
-        background-image: url("css/images/background.jpg");
+        background-image: url("css/images/homepage.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -15,20 +15,20 @@
 <body>
     <div class="page">
         <div class="navbar">
-            <div class="titlediv"><h1 class="title">OliCilento</h1></div>
+            <div class="titlediv"><h1 class="title"><a class="link2" href="index.html">OliCilento</a></h1></div>
             <div class="buttondiv">
-                <button class="button">Registrati come produttore</button>
-                <button class="button"><a href="login.html"> Login </a></button>
+                <button class="button"><a class="link" href="registrazione.html">Registrati come produttore</a></button>
+                <button class="button"><a class="link" href="login.html">Login</a></button>
             </div>
         </div>
         <div class="map">
             <img class="image" src="css/images/cilento.png">
         </div>
         <div class="tablediv">
-            <h1 class="title">Ricerca produttore:</h1>
+            <h1 class="paragraf">Ricerca produttore:</h1>
             <form class="form">
                 <select name="Quantità">
-                    <option value="null">Quantità Ricercata</option>
+                    <option class="option" value="null">Quantità Ricercata</option>
                     <option value="10">10</option>
                     <option value="20">20</option>
                     <option value="30">30</option>
@@ -45,10 +45,10 @@
                     <option value="E">E</option>
                     <option value="F">F</option>
                 </select>
-                <input type="submit" placeholder="Avvia Ricerca">
+                <input type="submit" class="button" placeholder="Avvia Ricerca">
             </form>
             <table class="table">
-                <tr><td>Nome</td><td>Età</td><td>Quantità Disponibile</td><td>Numero di telefono</td></tr>
+                <tr><td class="first">Nome</td><td class="first">Età</td><td class="first">Quantità Disponibile</td><td class="first">Numero di telefono</td></tr>
                 <tr><td>Dato 1,1</td><td>Dato 1,2</td><td>Dato 1,2</td><td>Dato 1,2</td></tr>
                 <tr><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 1,2</td><td>Dato 1,2</td></tr>
                 <tr><td>Dato 3,1</td><td>Dato 3,2</td><td>Dato 1,2</td><td>Dato 1,2</td></tr>
