@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/produttori.js"></script>
+    <script src="scripts/ricerca.js"></script>
+
     <meta charset="UTF-8">
     <title>OliCilento</title>
 </head>
@@ -41,35 +43,33 @@
     </div>
     <div class="tablediv">
         <h1 class="paragraf">Ricerca produttore:</h1>
-        <form class="form">
-            <select name="Quantità">
-                <option class="option" value="null">Quantità Ricercata</option>
-                <option value="10">10</option>
-                <option value="20">20</option>
-                <option value="30">30</option>
-                <option value="40">40</option>
-                <option value="50">50</option>
-                <option value="60">30</option>
-            </select>
-            <select name="Classificazione">
-                <option value="null">Classificazione Ricercata</option>
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-                <option value="D">D</option>
-                <option value="E">E</option>
-                <option value="F">F</option>
-            </select>
-            <p class="textarea">Per Inserire una disponibilità di prodotto, dei dati qualitativi o quantitavi, cliccare sul pulsante "Accedi" oppure se non si possiede un account sul pulsante "Registrati come Produttore".</p>
-            <input type="submit" class="button" placeholder="Avvia Ricerca">
-        </form>
-
-            <table class="table">
-                <tr><td class="first">Nome</td><td class="first">Età</td><td class="first">Quantità Disponibile</td><td class="first">Numero di telefono</td></tr>
 
 
+        <select name="Quantità" id="risorsa">
+            <option class="option" value="null">Quantità Ricercata</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <select name="Classificazione" id="classificazione">
+            <option value="null">Classificazione Ricercata</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+        </select>
+        <p class="textarea">Per Inserire una disponibilità di prodotto, dei dati qualitativi o quantitavi, cliccare sul pulsante "Accedi" oppure se non si possiede un account sul pulsante "Registrati come Produttore".</p>
+        <button class="button" onclick="search()" >Avvia Ricerca</button>
 
-            </table>
+        <table class="table">
+            <tr><td class="first">Nome</td><td class="first">Età</td><td class="first">Quantità Disponibile</td><td class="first">Numero di telefono</td></tr>
+
+        </table>
 
 
 

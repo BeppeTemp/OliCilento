@@ -1,6 +1,15 @@
-$(document).ready(function (){
+function search() {
+    var l = document.getElementById("classificazione");
+    var livello = l.options[l.selectedIndex].value;
 
-    $.getJSON("ServletDisplayProduttori", function (object) {
+    var r = document.getElementById("risorsa");
+    var risorsa = r.options[r.selectedIndex].value;
+
+
+    $.getJSON("ServletRicercaProduttori", {"livello": livello , "risorsa": risorsa} , function (object, status){
+
+        $(".row").remove();
+
         $.getJSON("ServletDisplayRisorse", function (object_2){
 
             let num = 0;
@@ -35,7 +44,6 @@ $(document).ready(function (){
 
         })
 
+
     })
-
-})
-
+}

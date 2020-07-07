@@ -70,6 +70,16 @@
         <servlet-name>DettagliProduttore</servlet-name>
         <url-pattern>/ServletDettagliProduttore</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RicercaProduttori</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletRicercaProduttori</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RicercaProduttori</servlet-name>
+        <url-pattern>/ServletRicercaProduttori</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>

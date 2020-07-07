@@ -12,16 +12,13 @@
     <meta charset="UTF-8">
     <title>Produttore</title>
 </head>
-<p>
-    <header>
-        <h1>Oli Cilento</h1>
-        <form>
-            <input type="submit" value="Registrati come Produttore">
-        </form>
-        <form>
-            <input type="submit" value="Accedi">
-        </form>
-    </header>
+<div class="navbar">
+    <div class="titlediv"><h1 class="title"><a class="link2" href="index.jsp">OliCilento</a></h1></div>
+    <div class="buttondiv">
+        <button class="button"><a class="link" href="registrazione.jsp">Registrati come produttore</a></button>
+        <button class="button"><a class="link" href="login.jsp">Login</a></button>
+    </div>
+</div>
 
 
 <h1>Nome: ${informazioni.nome} ${informazioni.cognome}</h1>
