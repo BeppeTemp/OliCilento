@@ -82,7 +82,7 @@
     <p>Inserisci disponibilità</p>
     <form action="InserimentoOlio" method="post">
         <select name="risorse">
-            <option value="quantità_disponibile" selected>Quantità Disponibile</option>
+            <option value="0" selected>Quantità Disponibile</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -91,13 +91,22 @@
         </select>
 
         <select name="livello">
-            <option value="classificazione_test" selected>Classificazione test</option>
+            <option value="z" selected>Classificazione test</option>
             <option value="a">A</option>
             <option value="b">B</option>
             <option value="c">C</option>
             <option value="d">D</option>
             <option value="e">E</option>
             <option value="f">F</option>
+        </select>
+
+        <select name="annoProduzione">
+            <option value="2099" selected>Anno di Produzione</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
         </select>
 
         <input type="submit" value="Inserisci">

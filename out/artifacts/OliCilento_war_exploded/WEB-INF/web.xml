@@ -38,9 +38,28 @@
     
     <servlet-mapping>
         <servlet-name>InserimentoOlio</servlet-name>
-        <url-pattern>/InserimentoOlio</url-pattern>
+        <url-pattern>/ServletInserimentoOlio</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DisplayProduttori</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletDisplayProduttori</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DisplayProduttori</servlet-name>
+        <url-pattern>/ServletDisplayProduttori</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DisplayRisorse</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletDisplayRisorse</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DisplayRisorse</servlet-name>
+        <url-pattern>/ServletDisplayRisorse</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>

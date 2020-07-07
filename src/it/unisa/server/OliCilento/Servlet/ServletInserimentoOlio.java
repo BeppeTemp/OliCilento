@@ -23,12 +23,13 @@ public class ServletInserimentoOlio extends HttpServlet {
 
             int risorse = Integer.parseInt(request.getParameter("risorse"));
             String livello = request.getParameter("livello").toUpperCase();
+            int anno = Integer.parseInt(request.getParameter("annoProduzione"));
             Produttore login = (Produttore) session.getAttribute("produttore");
 
             for (Classificazione l: Classificazione.values()) {
                 if(l.name().compareTo(livello) == 0){
 
-                    Data.add(new Prodotto(login.getId(), risorse, l));
+                    Data.add(new Prodotto(login.getId(), risorse, anno, l));
                 }
 
             }
