@@ -1,0 +1,41 @@
+.page{
+    margin-left: 15%;}
+
+/*Sezione barra di navigazione*/
+
+.navbar{
+    background-color: #666633;
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+
+    margin-top: 10px;
+    width:80%;}
+.titlediv{
+    margin: 10px;
+    height: 40px;
+    width: fit-content}
+.buttondiv{    
+    float: right;
+
+    margin-top: -45px;
+    margin-right: 10px;
+    height: fit-content;
+    width: fit-content}
+.title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:white;}
+.link{
+    text-decoration: none;
+    color: black;}
+.button{
+    border-color:black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: medium;}
+.button:hover{
+    background-color: rgba(240, 240, 0, 0.678);}
+.link:hover{
+    color: black;}
