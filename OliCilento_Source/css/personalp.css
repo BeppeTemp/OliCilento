@@ -4,7 +4,7 @@
 /*Sezione barra di navigazione*/
 
 .navbar{
-    background-color: #666633;
+    background-color: #414120;;
     border-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -50,7 +50,7 @@
     border-style: solid;
 
     margin-top: -2px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 
     width:95%;}
 .form{
@@ -86,17 +86,51 @@ select{
     font-weight: bold;
     font-size: medium;}
 .g1{
-    border-color: red;
+    border-color: black;
+    background-color: #414120;
+    border-radius: 10px;
     border-style: solid;
 
-    height: 100px;
-    width: 50%;
+    margin: 10px;
 
-    margin-left: -10px;}
+    height: 200px;
+    width: 48%;}
 .g2{
-    border-color: red;
+    border-color: black;
+    background-color: #414120;
+    border-radius: 10px;
     border-style: solid;
 
-    height: 100px;
-    width: 50%;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: -213px;
+
+    height: 200px;
+    width: 48%;
     float: right;}
+.inputtx2{
+    border-color:black;
+    background-color: #414120;
+    border-radius: 10px;
+
+    text-align: justify;
+    margin-top: 5px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    width: 98%;
+    height: 200px;
+    padding: 5px;
+    font-size: medium;}
+.button2{
+    border-color:black;
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+
+    font-size: medium;}
+.button2:hover{
+    background-color: rgba(240, 240, 0, 0.678);}
