@@ -25,36 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736da491-38fb-41df-92ae-84e75ffbe79c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Produttore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletRegistrazione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/paginaPersonale.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/produttore.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/registrazione.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Classificazione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Prodotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/FakeDB/Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/registrazione.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/registrazione.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/produttore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/registrazione.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/utente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/FakeDB/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/registrazione.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/registrazione.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/paginaPersonale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/produttore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/registrazione.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/utente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/paginaPersonale.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/paginaPersonale.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +45,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -208,6 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593870912979</updated>
       <workItem from="1593870914588" duration="9886000" />
+      <workItem from="1594127081035" duration="1630000" />
     </task>
     <servers />
   </component>
@@ -224,16 +206,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="353" key="#Template_Data_Languages" timestamp="1593877039653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="353" key="#Template_Data_Languages/0.0.1920.1040@0.0.1920.1040" timestamp="1593877039653" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1593879764938">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594128640465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593879764938" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594128640465" />
     <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593879702221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

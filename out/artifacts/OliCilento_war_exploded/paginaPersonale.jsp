@@ -72,8 +72,8 @@
 
 <div id="inserimentoProdotto">
     <p>Inserisci disponibilità</p>
-    <form>
-        <select>
+    <form action="InserimentoOlio" method="post">
+        <select name="risorse">
             <option value="quantità_disponibile" selected>Quantità Disponibile</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -82,7 +82,7 @@
             <option value="5">5</option>
         </select>
 
-        <select>
+        <select name="livello">
             <option value="classificazione_test" selected>Classificazione test</option>
             <option value="a">A</option>
             <option value="b">B</option>

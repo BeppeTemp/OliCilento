@@ -31,6 +31,15 @@
         <url-pattern>/ServletRegistrazione</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>InserimentoOlio</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletInserimentoOlio</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>InserimentoOlio</servlet-name>
+        <url-pattern>/InserimentoOlio</url-pattern>
+    </servlet-mapping>
 
 
 
