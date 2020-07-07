@@ -13,6 +13,14 @@
     <meta charset="UTF-8">
     <title>Pagina Personale</title>
 
+    <style>
+        body {
+            background-image: url("css/images/personalp.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
