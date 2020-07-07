@@ -32,7 +32,7 @@ public class ServletInserimentoOlio extends HttpServlet {
                 }
 
             }
-            
+
 
             request.getRequestDispatcher("paginaPersonale.jsp").forward(request, response);
 
