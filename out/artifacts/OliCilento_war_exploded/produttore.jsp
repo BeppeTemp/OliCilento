@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:useBean id="informazioni_produttore" class="it.unisa.server.OliCilento.Beans.Produttore"></jsp:useBean>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -23,23 +24,15 @@
     </header>
 
 
-<h1> Vincenzo Malandrino</h1>
-<p>Età: 58</p>
-<p>Paese di provenienza: Perdifumo</p>
-<p>Classificazione: A</p>
-<p>Numero di telefono: 39336259482</p>
-<p>Numero di telefono: 39336259482</p>
-<p>Quantità disponibile: 50</p>
+<h1>Nome: ${informazioni.nome} ${informazioni.cognome}</h1>
+<p>Età: ${informazioni.anni}</p>
+<p>Paese di provenienza: ${informazioni.paese}</p>
+<p>Numero di telefono: ${informazioni.telefono}</p>
+
+<p>Quantità disponibile: ${risorse}</p>
 
 <textarea disabled rows="15" cols="110">
-    Tuttavia, perché voi intendiate da dove sia nato tutto questo errore,
-    di quelli che incolpano il piacere ed esaltano il dolore, io spiegherò tutta la questione,
-    e presenterò le idee espresse dal famoso esploratore della verità, vorrei quasi dire dal costruttore
-    della felicità umana. Nessuno, infatti, detesta, odia, o rifugge il piacere in quanto tale, solo perché
-    è piacere, ma perché grandi sofferenze colpiscono quelli che non sono capaci di raggiungere il piacere
-    attraverso la ragione; e al contrario, non c'è nessuno che ami, insegua, voglia raggiungere il dolore in
-    se stesso, soltanto perché è dolore, ma perché qualche volta accadono situazioni tali per cui attraverso
-    la sofferenza o il dolore si cerca di raggiungere un qualche grande piacere.
+    ${informazioni.biografia}
     </textarea>
 
 

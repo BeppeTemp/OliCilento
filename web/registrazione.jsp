@@ -23,7 +23,7 @@
 <body>
 <div class="page">
     <div class="navbar">
-        <div class="titlediv"><h1 class="title"><a class="link" href="index.html">OliCilento</a></h1></div>
+        <div class="titlediv"><h1 class="title"><a class="link" href="index.jsp">OliCilento</a></h1></div>
     </div>
     <div class="main">
         <h1 class="paragraf">Registrazione</h1>

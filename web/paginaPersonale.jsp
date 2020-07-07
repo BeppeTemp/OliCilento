@@ -66,7 +66,7 @@
 </head>
 <body>
 <header>
-    <h1>Oli Cilento</h1>
+    <div class="titlediv"><h1 class="title"><a class="link" href="index.jsp">OliCilento</a></h1></div>
 </header>
 
 <h2>Nome: ${produttore.nome}  ${produttore.cognome}</h2>

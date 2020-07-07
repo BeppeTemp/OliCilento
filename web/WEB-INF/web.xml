@@ -60,6 +60,16 @@
         <servlet-name>DisplayRisorse</servlet-name>
         <url-pattern>/ServletDisplayRisorse</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DettagliProduttore</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletDettagliProduttore</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DettagliProduttore</servlet-name>
+        <url-pattern>/ServletDettagliProduttore</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>

@@ -3,7 +3,6 @@ $(document).ready(function (){
     $.getJSON("ServletDisplayProduttori", function (object) {
         $.getJSON("ServletDisplayRisorse", function (object_2){
 
-            console.log(object_2);
 
             for(x in object){
                 var num = 0;
@@ -18,9 +17,8 @@ $(document).ready(function (){
                 }
 
 
-
                 var riga = $("<tr>" +
-                    "<form action=\"\" method=\"post\" id=\"prod_"+ num +"\"></form>" +
+                    "<form action=\"ServletDettagliProduttore\" method=\"post\" id=\"prod_"+ num +"\"></form>" +
                     "<input type=\"hidden\" form=\"prod_"+ num +"\" name=\"id\" value=\"" + object[x].id + "\">" +
                     "<td>" + object[x].nome + " " + object[x].cognome+ "</td>" +
                     "<td>" + object[x].anni + "</td>" +
@@ -38,7 +36,6 @@ $(document).ready(function (){
         })
 
     })
-
 
 })
 
