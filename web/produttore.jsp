@@ -28,9 +28,7 @@
 
 <p>Quantità disponibile: ${risorse}</p>
 
-<textarea disabled rows="15" cols="110">
-    ${informazioni.biografia}
-    </textarea>
+<textarea class="inputtx2" type="textarea"  name="quantity">${informazioni.biografia}</textarea>
 
 
 </body>
