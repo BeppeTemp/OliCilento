@@ -32,7 +32,7 @@ public class ServletLogin extends HttpServlet {
             }
 
             else{
-                session.setAttribute("log", "false");
+                session.setAttribute("log", "true");
                 session.setAttribute("produttore", login);
                 request.getRequestDispatcher("paginaPersonale.jsp").forward(request, response);
             }

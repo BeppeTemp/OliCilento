@@ -39,29 +39,29 @@ public class Data {
             data.put(6, new Produttore(5, "Antonio.Moro@gmail.com", "123456789","Antonio", "Moro", 30, "Napoli", "3295860000",  "ciao"));
             data.put(6, new Produttore(6,  "Francesco.Rossi@gmail.com","123456789", "Francesco", "Rossi", 25, "Salerno", "3358690000",  "ciao"));
 
-            prodotti.add(new Prodotto(2, 5, 2019, Classificazione.B));
-            prodotti.add(new Prodotto(2, 2, 2018, Classificazione.A));
-            prodotti.add(new Prodotto(2, 8, 2018, Classificazione.D));
+            prodotti.add(new Prodotto(2, 5, Classificazione.B));
+            prodotti.add(new Prodotto(2, 2, Classificazione.A));
+            prodotti.add(new Prodotto(2, 8, Classificazione.D));
 
-            prodotti.add(new Prodotto(1, 9, 2020, Classificazione.F));
-            prodotti.add(new Prodotto(1, 20, 2019, Classificazione.B));
-            prodotti.add(new Prodotto(1, 8,2019, Classificazione.C));
+            prodotti.add(new Prodotto(1, 9, Classificazione.F));
+            prodotti.add(new Prodotto(1, 20, Classificazione.B));
+            prodotti.add(new Prodotto(1, 8, Classificazione.C));
 
-            prodotti.add(new Prodotto(3, 5, 2018, Classificazione.D));
-            prodotti.add(new Prodotto(3, 13,2020,  Classificazione.B));
-            prodotti.add(new Prodotto(3, 5, 2018, Classificazione.E));
+            prodotti.add(new Prodotto(3, 5, Classificazione.D));
+            prodotti.add(new Prodotto(3, 13, Classificazione.B));
+            prodotti.add(new Prodotto(3, 5, Classificazione.E));
 
-            prodotti.add(new Prodotto(4, 5, 2020, Classificazione.B));
-            prodotti.add(new Prodotto(4, 22, 2019, Classificazione.A));
-            prodotti.add(new Prodotto(4, 8, 2018, Classificazione.D));
+            prodotti.add(new Prodotto(4, 5, Classificazione.B));
+            prodotti.add(new Prodotto(4, 22, Classificazione.A));
+            prodotti.add(new Prodotto(4, 8, Classificazione.D));
 
-            prodotti.add(new Prodotto(5, 6, 2019, Classificazione.F));
-            prodotti.add(new Prodotto(5, 26, 2017, Classificazione.D));
-            prodotti.add(new Prodotto(5, 15, 2019, Classificazione.A));
+            prodotti.add(new Prodotto(5, 6, Classificazione.F));
+            prodotti.add(new Prodotto(5, 26, Classificazione.D));
+            prodotti.add(new Prodotto(5, 15, Classificazione.A));
 
-            prodotti.add(new Prodotto(6, 8, 2020, Classificazione.D));
-            prodotti.add(new Prodotto(6, 15, 2018, Classificazione.C));
-            prodotti.add(new Prodotto(6, 25, 2017, Classificazione.B));
+            prodotti.add(new Prodotto(6, 8, Classificazione.D));
+            prodotti.add(new Prodotto(6, 15, Classificazione.C));
+            prodotti.add(new Prodotto(6, 25, Classificazione.B));
 
             loaded = true;
         }
