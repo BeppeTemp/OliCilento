@@ -80,6 +80,16 @@
         <servlet-name>RicercaProduttori</servlet-name>
         <url-pattern>/ServletRicercaProduttori</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModificaBiografica</servlet-name>
+        <servlet-class>it.unisa.server.OliCilento.Servlet.ServletModificaBio</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ModificaBiografica</servlet-name>
+        <url-pattern>/ServletModificaBio</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>

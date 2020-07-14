@@ -23,10 +23,23 @@
 <body>
 <div class="page">
     <div class="navbar">
-        <div class="titlediv"><h1 class="title"><a class="link" href="index.jsp">OliCilento</a></h1></div>
+        <div class="titlediv">
+            <h1 class="title"><a class="link" href="index.jsp">OliCilento</a></h1>
+        </div>
     </div>
     <div class="main">
         <h1 class="paragraf">Login</h1>
+
+        <p style="color: white">Usare le sequenti credenziali per il testing:</p>
+        <p style="color: white">Vincenzo.Malandrino@gmail.com</p>
+        <p style="color: white">123456789</p>
+
+        <%Boolean error = (Boolean) session.getAttribute("error");
+            if(error != null && error.booleanValue()){
+                    session.removeAttribute("error");%>
+        <p id="login" class="login_alert">Username o Password errate.</p>
+        <%}%>
+
         <form class="form" action="ServletLogin" method="post">
             <input class="inputtx" type="text" placeholder="E-Mail" name="mail" required">
             <input class="inputtx" type="password" placeholder="Password" name="password" required">
@@ -34,6 +47,13 @@
         </form>
     </div>
 </div>
+<footer>
+    <h3> Oli Cilento</h3>
+
+    <p> E-mail: Oli_Cilento@gmail.com</p>
+
+    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+</footer>
 </body>
 </html>
 

@@ -27,12 +27,13 @@ public class ServletLogin extends HttpServlet {
 
 
             if(login.getId() == 9999){
-                session.setAttribute("log", "false");
-                request.getRequestDispatcher("index.jsp").forward(request, response);
+                session.setAttribute("log", false);
+                session.setAttribute("error", true);
+                request.getRequestDispatcher("login.jsp").forward(request, response);
             }
 
             else{
-                session.setAttribute("log", "false");
+                session.setAttribute("log", true);
                 session.setAttribute("produttore", login);
                 request.getRequestDispatcher("paginaPersonale.jsp").forward(request, response);
             }

@@ -1,7 +1,5 @@
 package it.unisa.server.OliCilento.Servlet;
 
-import it.unisa.server.OliCilento.Beans.Classificazione;
-import it.unisa.server.OliCilento.Beans.Prodotto;
 import it.unisa.server.OliCilento.Beans.Produttore;
 import it.unisa.server.OliCilento.FakeDB.Data;
 
@@ -13,35 +11,30 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet(name = "ServletInserimentoOlio")
-public class ServletInserimentoOlio extends HttpServlet {
+@WebServlet(name = "ServletModificaBio")
+public class ServletModificaBio extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         HttpSession session = request.getSession();
 
         synchronized (session){
-
-            int risorse = Integer.parseInt(request.getParameter("risorse"));
-            String livello = request.getParameter("livello").toUpperCase();
             Produttore login = (Produttore) session.getAttribute("produttore");
+            String bio = request.getParameter("bio");
 
-            for (Classificazione l: Classificazione.values()) {
-                if(l.name().compareTo(livello) == 0){
+            login.setBiografia(bio);
 
-                    Data.add(new Prodotto(login.getId(), risorse,  l));
-                }
-
-            }
-
+            Data.modifica(login);
 
             request.getRequestDispatcher("paginaPersonale.jsp").forward(request, response);
 
-        }
 
+        }
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+
 
     }
 }

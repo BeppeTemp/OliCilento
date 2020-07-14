@@ -4,26 +4,17 @@ public class Prodotto {
 
     private int idProduttore;
     private int risorse;
-    private int anno;
     private Classificazione livello;
 
     public Prodotto() {
     }
 
-    public Prodotto(int idProduttore, int risorse, int anno, Classificazione livello) {
+    public Prodotto(int idProduttore, int risorse, Classificazione livello) {
         this.idProduttore = idProduttore;
         this.risorse = risorse;
-        this.anno = anno;
         this.livello = livello;
     }
 
-    public int getAnno() {
-        return anno;
-    }
-
-    public void setAnno(int anno) {
-        this.anno = anno;
-    }
 
     public int getIdProduttore() {
         return idProduttore;
