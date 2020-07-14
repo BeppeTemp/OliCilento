@@ -33,7 +33,11 @@
     }%>
 <div class="page">
     <div class="navbar">
-        <div class="titlediv"><h1 class="title">Nome: ${produttore.nome}  ${produttore.cognome}</h1></div>
+
+        <div class="titlediv">
+            <h1 class="title"><a class="link2" href="index.jsp">OliCilento</a></h1>
+            <h3 class="title">${produttore.nome}  ${produttore.cognome}</h3>
+        </div>
         <div class="buttondiv">
             <form action="ServletLogout" method="post">
                 <input type="submit" class="button" value="Logout">
@@ -121,5 +125,12 @@
         </form>
     </div>
 </div>
+<footer>
+    <h3> Oli Cilento</h3>
+
+    <p> E-mail: Oli_Cilento@gmail.com</p>
+
+    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+</footer>
 </body>
 </html>

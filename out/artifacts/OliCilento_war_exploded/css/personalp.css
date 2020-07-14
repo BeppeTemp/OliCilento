@@ -17,7 +17,7 @@
 
 .titlediv {
     margin: 10px;
-    height: 40px;
+    height: 60px;
     width: fit-content
 }
 
@@ -35,9 +35,16 @@
     color: white;
 }
 
-.link {
+.link2 {
     text-decoration: none;
-    color: black;
+    font-size: 25px;
+    color: white;
+}
+
+.link2:hover {
+    color: rgba(240, 240, 0, 0.678);
+    font-size: 20px;
+    font-size: x-large;
 }
 
 .button {
@@ -154,4 +161,20 @@ select {
 
 .button2:hover {
     background-color: rgba(240, 240, 0, 0.678);
+}
+
+footer {
+    position:absolute;
+    width:1200px;
+    height:auto;
+    bottom:-300px;
+
+    left:48%;
+    margin-left:-600px;
+
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px
 }

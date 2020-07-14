@@ -37,7 +37,7 @@ public class ServletDettagliProduttore extends HttpServlet {
                 if(idProduttore == p.getId()){
                     session.setAttribute("informazioni", p);
                     session.setAttribute("risorse", risorse);
-                    request.getRequestDispatcher("produttore.jsp").forward(request, response);
+                    request.getRequestDispatcher("paginaProduttore.jsp").forward(request, response);
                 }
 
             }

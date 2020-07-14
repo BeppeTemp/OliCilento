@@ -89,4 +89,18 @@
     font-size: medium;
 }
 
-/* questo è un test funzionale... signor @laurus96 se  riceve codesto messaggio mi faccia un resoconto sullo stato progettuale su telegram*/
+footer {
+    position:absolute;
+    width:1200px;
+    height:auto;
+    bottom:-300px;
+
+    left:48%;
+    margin-left:-600px;
+
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px
+}
