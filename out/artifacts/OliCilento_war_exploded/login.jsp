@@ -29,6 +29,13 @@
     </div>
     <div class="main">
         <h1 class="paragraf">Login</h1>
+
+        <%Boolean error = (Boolean) session.getAttribute("error");
+            if(error != null && error.booleanValue()){
+                    session.removeAttribute("error");%>
+        <p id="login" class="login_alert">Username o Password errate.</p>
+        <%}%>
+
         <form class="form" action="ServletLogin" method="post">
             <input class="inputtx" type="text" placeholder="E-Mail" name="mail" required">
             <input class="inputtx" type="password" placeholder="Password" name="password" required">

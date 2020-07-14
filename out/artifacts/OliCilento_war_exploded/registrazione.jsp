@@ -31,7 +31,7 @@
             <input class="inputtx" type="text" name="nome" placeholder="Nome"  required>
             <input class="inputtx" type="text" name="cognome" placeholder="Cognome"  required>
             <input class="inputtx" type="email" name="mail" placeholder="E-Mail"  required>
-            <input class="inputtx" type="text" name="anni" placeholder="Età"  required">
+            <input class="inputtx" type="text" name="anni" placeholder="Età"  required>
             <input class="inputtx" type="text" name="paese" placeholder="Paese di Provenienza"  required>
             <input class="inputtx" type="text" name="telefono" placeholder="Numero di Telefono"  required>
             <input class="inputtx" type="password" name="password" maxlength="100" minlength="8" placeholder="Password" required>

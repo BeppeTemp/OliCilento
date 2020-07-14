@@ -25,26 +25,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736da491-38fb-41df-92ae-84e75ffbe79c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletModificaBio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Beans/Prodotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Beans/Prodotto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/FakeDB/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/graficiGoogle.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/graficiGoogle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Beans/Prodotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Beans/Prodotto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/FakeDB/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Beans/Prodotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/FakeDB/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OliCilento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OliCilento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Beans/Classificazione.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Beans/Prodotto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Beans/Produttore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletDettagliProduttore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletDisplayProduttori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletDisplayRisorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletModificaBio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletRegistrazione.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/it/unisa/server/OliCilento/Servlet/ServletRicercaProduttori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/classes/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/images/cilento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/images/homepage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/images/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/images/personalp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/images/registrazione.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/loreg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/css/personalp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/paginaPersonale.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/produttore.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/registrazione.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/graficiGoogle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/produttori.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OliCilento_war_exploded/scripts/ricerca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Beans/Classificazione.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Beans/Prodotto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Beans/Produttore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/FakeDB/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletDettagliProduttore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletDisplayProduttori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletDisplayRisorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletInserimentoOlio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletModificaBio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletRegistrazione.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OliCilento/it/unisa/server/OliCilento/Servlet/ServletRicercaProduttori.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unisa/server/OliCilento/Servlet/ServletLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/paginaPersonale.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/paginaPersonale.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/registrazione.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/registrazione.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/graficiGoogle.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/graficiGoogle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.6.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -97,10 +128,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -229,6 +261,18 @@
       <workItem from="1594129010740" duration="10637000" />
       <workItem from="1594301511598" duration="1350000" />
       <workItem from="1594302998757" duration="7259000" />
+      <workItem from="1594496973867" duration="14000" />
+      <workItem from="1594497000186" duration="8000" />
+      <workItem from="1594732851048" duration="224000" />
+      <workItem from="1594733308956" duration="138000" />
+      <workItem from="1594733458023" duration="42000" />
+      <workItem from="1594733510515" duration="2000" />
+      <workItem from="1594733544491" duration="90000" />
+      <workItem from="1594733717548" duration="4000" />
+      <workItem from="1594733734417" duration="177000" />
+      <workItem from="1594733939471" duration="43000" />
+      <workItem from="1594734025304" duration="22000" />
+      <workItem from="1594734177831" duration="303000" />
     </task>
     <servers />
   </component>
@@ -248,10 +292,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="629" y="179" key="#Project_Structure" timestamp="1594132947086">
+    <state x="629" y="179" key="#Project_Structure" timestamp="1594734046292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="629" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594132947086" />
+    <state x="629" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594734046292" />
     <state x="461" y="353" key="#Template_Data_Languages" timestamp="1593877039653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,58 +320,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594133718494" />
-    <state x="855" y="346" key="FileChooserDialogImpl" timestamp="1594134212082">
+    <state x="855" y="346" key="FileChooserDialogImpl" timestamp="1594733412116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="855" y="346" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594134212082" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1594310315564">
+    <state x="855" y="346" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594733412116" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1594734431966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431966" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1594734431966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431966" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1594734431966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431966" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1594734431966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431966" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1594734431967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431967" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1594734431967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431967" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1594734431967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431967" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1594734431967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594734431967" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1594734432895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594734432895" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1594734432895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594734432895" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1594734432895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
-    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1594310315564">
+    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594734432895" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1594734432895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594310315564" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594734432895" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1594134215936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
