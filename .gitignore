@@ -1,0 +1,19 @@
+# Compiled class file
+*.class
+
+# idea IDE settings
+.idea/
+
+# out folder
+out/
+
+# Log file
+*.log
+
+
+
+
+
+
+
+
