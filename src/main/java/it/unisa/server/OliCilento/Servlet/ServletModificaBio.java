@@ -31,6 +31,8 @@ public class ServletModificaBio extends HttpServlet {
 
             Data.modifica(login);
 
+            session.setAttribute("status_bio", true);
+
             request.getRequestDispatcher("paginaPersonale.jsp").forward(request, response);
 
 

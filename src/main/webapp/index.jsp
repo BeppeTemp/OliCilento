@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/produttori.js"></script>
     <script src="scripts/ricerca.js"></script>
+    <script src="scripts/riordine.js"></script>
+
 
     <meta charset="UTF-8">
     <title>OliCilento</title>
@@ -34,12 +36,42 @@
     </div>
     <div class="map">
         <img class="image" src="css/images/cilento.png">
-        <div id="b1" class="ball"></div>
-        <div id="b2" class="ball"></div>
-        <div id="b3" class="ball"></div>
-        <div id="b4" class="ball"></div>
-        <div id="b5" class="ball"></div>
-        <div id="b6" class="ball"></div>
+        <div id="b1" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="1">
+                <input id="i1" type="submit">
+            </form>
+        </div>
+        <div id="b2" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="2">
+                <input id="i2" type="submit">
+            </form>
+        </div>
+        <div id="b3" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="3">
+                <input id="i3" type="submit">
+            </form>
+        </div>
+        <div id="b4" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="4">
+                <input id="i4" type="submit">
+            </form>
+        </div>
+        <div id="b5" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="5">
+                <input id="i5" type="submit">
+            </form>
+        </div>
+        <div id="b6" class="ball">
+            <form action="ServletDettagliProduttore" method="post">
+                <input type="hidden" name="id" value="6">
+                <input id="i6" type="submit">
+            </form>
+        </div>
     </div>
     <div class="tablediv">
         <h1 class="paragraf">Ricerca produttore:</h1>
@@ -47,27 +79,24 @@
 
         <select name="Quantità" id="risorsa">
             <option class="option" value="null">Quantità Ricercata</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
         </select>
         <select name="Classificazione" id="classificazione">
             <option value="null">Classificazione Ricercata</option>
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-            <option value="D">D</option>
-            <option value="E">E</option>
-            <option value="F">F</option>
+            <option value="A">Extra Vergine</option>
+            <option value="B">Vergine</option>
+            <option value="C">Lampate</option>
         </select>
         <p class="textarea">Per Inserire una disponibilità di prodotto, dei dati qualitativi o quantitavi, cliccare sul pulsante "Accedi" oppure se non si possiede un account sul pulsante "Registrati come Produttore".</p>
         <button class="button" onclick="search()" >Avvia Ricerca</button>
 
         <table class="table">
-            <tr><td class="first">Nome</td><td class="first">Età</td><td class="first">Quantità Disponibile</td><td class="first">Numero di telefono</td></tr>
+            <tr><td class="first" onclick="sortByName()">Nome</td><td class="first" onclick="sortByAnni()">Età</td><td class="first" onclick="sortByRisorse()">Quantità Disponibile</td><td class="first" onclick="sortByTelefono()">Numero di telefono</td></tr>
 
         </table>
 

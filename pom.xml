@@ -5,18 +5,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.unisa</groupId>
-    <artifactId>Oli_Cilento_Maven_3</artifactId>
+    <artifactId>OliCilento</artifactId>
     <packaging>war</packaging>
-    <version>0.8</version>
-    <name>A custom project using myfaces</name>
-    <url>http://www.myorganization.org</url>
+    <version>0.85</version>
+
 
     <properties>
         <maven.compiler.release>14.0.2</maven.compiler.release>
     </properties>
 
     <build>
-        <finalName>Oli_Cilento_Maven_3</finalName>
+        <finalName>OliCilento</finalName>
     </build>
 
 

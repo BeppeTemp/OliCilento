@@ -195,6 +195,37 @@ tr:hover {
     right: 35%;
 }
 
+#i1 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#i2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#i3 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#i4 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#i5 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#i6 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
 footer {
     position:absolute;
     width:1200px;

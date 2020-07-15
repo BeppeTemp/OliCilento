@@ -30,14 +30,14 @@
     <div class="main">
         <h1 class="paragraf">Login</h1>
 
-        <p style="color: white">Usare le sequenti credenziali per il testing:</p>
+        <p style="color: white">Usare le seguenti credenziali per il testing:</p>
         <p style="color: white">Vincenzo.Malandrino@gmail.com</p>
         <p style="color: white">123456789</p>
 
         <%Boolean error = (Boolean) session.getAttribute("error");
             if(error != null && error.booleanValue()){
                     session.removeAttribute("error");%>
-        <p id="login" class="login_alert">Username o Password errate.</p>
+        <p style="color: white">Username o Password errate.</p>
         <%}%>
 
         <form class="form" action="ServletLogin" method="post">

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Oli_Cilento_Maven_3" />
+        <module name="OliCilento" />
       </profile>
     </annotationProcessing>
   </component>

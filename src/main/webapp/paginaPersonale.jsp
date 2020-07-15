@@ -46,7 +46,7 @@
     </div>
     <div class="body">
         <h1 class="paragraf">Inserisci Disponibilità:</h1>
-        <form class="form" action="InserimentoOlio" method="post">
+        <form class="form" action="ServletInserimentoOlio" method="post">
             <select name="risorse">
                 <option class="option" value="0" selected>Quantità disponibile</option>
                 <option value="10">10</option>
@@ -57,15 +57,18 @@
                 <option value="60">60</option>
             </select>
             <select name="livello">
-                <option value="Z" select>Classificazione</option>
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-                <option value="D">D</option>
-                <option value="E">E</option>
-                <option value="F">F</option>
+                <option value="Extra Vergine" select>Classificazione</option>
+                <option value="A">Extra Vergine</option>
+                <option value="B">Vergine</option>
+                <option value="C">Lampate</option>
             </select>
             <input type="submit" class="button" value="Inserisci">
+            <%-- Codice per l'allert dell'inserimento completato          --%>
+            <%Boolean status_olio = (Boolean) session.getAttribute("status_olio");
+                if(status_olio != null && status_olio.booleanValue()){
+                    session.removeAttribute("status_olio");%>
+                    <script> alert("Inserimento Olio Completato")</script>
+            <%}%>
         </form>
 
 
@@ -97,15 +100,7 @@
 
         <div class="g2">
             <div id="curve_chart_2" style="width: 500px; height: 200px"></div>
-            <select id="classe">
-                <option value="classificazione" selected>Classificazione</option>
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="C">C</option>
-                <option value="D">D</option>
-                <option value="E">E</option>
-                <option value="F">F</option>
-            </select>
+            <input id="acido" type="number" step="0.05" min="0" max="3" placeholder="Acidità (0-3)" value="0">
 
             <select id="anno2">
                 <option value="anno" selected>Anno</option>
@@ -122,6 +117,12 @@
         <form class="form" action="ServletModificaBio" method="post">
             <input type="text" rows="10" cols="30" placeholder="Inserire la nuova biografia" name="bio">
             <input class="button2" type="submit" value="Inserisci">
+            <%-- Codice per l'allert dell'inserimento completato          --%>
+            <%Boolean status_bio = (Boolean) session.getAttribute("status_bio");
+                if(status_bio != null && status_bio.booleanValue()){
+                    session.removeAttribute("status_bio");%>
+            <script> alert("Biografia modificata con successo")</script>
+            <%}%>
         </form>
     </div>
 </div>

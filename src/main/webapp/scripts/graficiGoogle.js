@@ -74,44 +74,27 @@ function addRisorse() {
         [anno,  parseInt(risorse)]
     ]);
 
+    alert("Dati inseriti!\nQuantità: " + risorse + "\nAnno: " + anno);
+
     drawChart_1();
 
 
 }
 
 function addClassificazione() {
-    var intero;
 
-    var c = document.getElementById("classe");
-    var classificazione = c.options[c.selectedIndex].value;
-
+    var acido = document.getElementById('acido').value;
 
     var a = document.getElementById("anno2");
     var anno = a.options[a.selectedIndex].value;
 
 
-    if(classificazione === 'A'){
-        intero = 6;
-    }
-    if(classificazione === 'B'){
-        intero = 5;
-    }
-    if(classificazione === 'C'){
-        intero = 4;
-    }
-    if(classificazione === 'D'){
-        intero = 3;
-    }
-    if(classificazione === 'E'){
-        intero = 2;
-    }
-    if(classificazione == 'F'){
-        intero = 1;
-    }
-    console.log(intero);
+
     data_2.addRows([
-        [anno, parseInt(intero) ]
+        [anno, parseInt(acido) ]
     ]);
+
+    alert("Dati inseriti!\nAcidità: " + acido + "\nAnno: " + anno);
 
     drawChart_2();
 

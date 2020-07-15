@@ -35,6 +35,7 @@ public class ServletInserimentoOlio extends HttpServlet {
                 if(l.name().compareTo(livello) == 0){
 
                     Data.add(new Prodotto(login.getId(), risorse,  l));
+                    session.setAttribute("status_olio", true);
                 }
 
             }

@@ -4,7 +4,5 @@ public enum Classificazione {
     A,
     B,
     C,
-    D,
-    E,
-    F;
+
 }

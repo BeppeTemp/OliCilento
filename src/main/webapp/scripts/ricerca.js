@@ -1,3 +1,15 @@
+function resetBall(){
+    var i = 1;
+
+    while(i <= 6){
+        $("#b" + i ).css("background-color", "red");
+        $("#i" + i).css("visibility", "hidden")
+        i++;
+    }
+
+}
+
+
 function search() {
     var l = document.getElementById("classificazione");
     var livello = l.options[l.selectedIndex].value;
@@ -5,6 +17,7 @@ function search() {
     var r = document.getElementById("risorsa");
     var risorsa = r.options[r.selectedIndex].value;
 
+    resetBall();
 
     $.getJSON("ServletRicercaProduttori", {"livello": livello , "risorsa": risorsa} , function (object, status){
 
@@ -24,7 +37,8 @@ function search() {
 
                 }
 
-
+                $("#b" + object[x].id ).css("background-color", "green");
+                $("#i" + object[x].id).css("visibility", "visible")
                 var riga = $("<tr class=\"row\">" +
                     "<form action=\"ServletDettagliProduttore\" method=\"post\" id=\"prod_"+ num +"\"></form>" +
                     "<input type=\"hidden\" form=\"prod_"+ num +"\" name=\"id\" value=\"" + object[x].id + "\">" +
@@ -47,3 +61,4 @@ function search() {
 
     })
 }
+
