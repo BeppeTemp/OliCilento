@@ -17,7 +17,13 @@ import java.util.List;
 
 @WebServlet(name = "ServletRicercaProduttori")
 public class ServletRicercaProduttori extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
     }
 
@@ -25,7 +31,7 @@ public class ServletRicercaProduttori extends HttpServlet {
 
         int risorsa = Integer.parseInt(request.getParameter("risorsa"));
         String livello = request.getParameter("livello").toUpperCase();
-        List<Produttore> match = new LinkedList<>();
+        List<Produttore> match = new LinkedList<Produttore>();
 
         PrintWriter out = response.getWriter();
 

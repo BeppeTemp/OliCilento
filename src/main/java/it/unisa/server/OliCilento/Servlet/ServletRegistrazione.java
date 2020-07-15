@@ -12,7 +12,13 @@ import java.io.IOException;
 
 @WebServlet(name = "Registrazione")
 public class ServletRegistrazione extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
         String nome = request.getParameter("nome");
         String cognome = request.getParameter("cognome");

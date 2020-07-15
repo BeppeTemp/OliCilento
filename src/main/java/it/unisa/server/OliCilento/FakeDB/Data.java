@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class Data {
 
-    private static Map<Integer, Produttore> data = new HashMap<>();
-    private static LinkedList<Prodotto> prodotti = new LinkedList<>();
+    private static Map<Integer, Produttore> data = new HashMap<Integer, Produttore>();
+    private static LinkedList<Prodotto> prodotti = new LinkedList<Prodotto>();
 
 
     private static boolean loaded = false;

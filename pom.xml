@@ -12,7 +12,7 @@
     <url>http://www.myorganization.org</url>
 
     <properties>
-        <maven.compiler.release>14.0.1</maven.compiler.release>
+        <maven.compiler.release>14.0.2</maven.compiler.release>
     </properties>
 
     <build>

@@ -16,14 +16,20 @@ import java.util.List;
 
 @WebServlet(name = "ServletDettagliProduttore")
 public class ServletDettagliProduttore extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
         HttpSession session = request.getSession();
 
         synchronized (session){
 
             int idProduttore = Integer.parseInt(request.getParameter("id"));
-            List<Produttore> prod = new LinkedList<>(Data.getData().values());
+            List<Produttore> prod = new LinkedList<Produttore>(Data.getData().values());
 
             int risorse = 0;
 
