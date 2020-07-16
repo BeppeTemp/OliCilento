@@ -45,7 +45,7 @@
             <div class="img">
                 <img class="image" src="css/images/imgprofile.jpg">
             </div>
-            <h1 class="paragraf">Biografia:</h1>
+            <h1 class="paragraf" style="margin-left: 10px;">Biografia:</h1>
             <p class="textarea">${informazioni.biografia}</p>
         </div>
         <footer class="footer">

@@ -41,7 +41,7 @@
         </div>
     </div>
     <div class="body">
-        <h3 class="title">${produttore.nome}  ${produttore.cognome}</h3>
+        <h1 class="name">${produttore.nome}  ${produttore.cognome}</h1>
         <h1 class="paragraf">Inserisci Disponibilità:</h1>
         <form class="form" action="ServletInserimentoOlio" method="post">
             <select name="risorse">
@@ -71,7 +71,7 @@
         <h1 class="paragraf">Statistiche:</h1>
 
         <div class="g1">
-            <div id="curve_chart_1" style="width: 500px; height: 200px"></div>
+            <div id="curve_chart_1" class="graph"></div>
 
             <select id="risorse">
                 <option value="quantità_prodotto" selected>Quantità Prodotto</option>
@@ -90,12 +90,12 @@
                 <option value="2017">2017</option>
                 <option value="2016">2016</option>
             </select>
-            <button type="button" onclick="addRisorse()">Inserisci</button>
+            <button class="button" type="button" onclick="addRisorse()">Inserisci</button>
         </div>
 
         <div class="g2">
-            <div id="curve_chart_2" style="width: 500px; height: 200px"></div>
-            <input id="acido" type="number" step="0.05" min="0" max="3" placeholder="Acidità (0-3)" value="0">
+            <div id="curve_chart_2" class="graph"></div>
+            <input class="acid" id="acido" type="number" step="0.05" min="0" max="3" placeholder="Acidità (0-3)" value="0">
 
             <select id="anno2">
                 <option value="anno" selected>Anno</option>
@@ -105,12 +105,11 @@
                 <option value="2017">2017</option>
                 <option value="2016">2016</option>
             </select>
-            <button type="button" onclick="addClassificazione()">Inserisci</button>
+            <button class="button" type="button" onclick="addClassificazione()">Inserisci</button>
         </div>
-
-        <h1 class="paragraf">Biografia:</h1>
+        <h1 class="paragraf" style="margin-top: 40px">Biografia:</h1>
         <form class="form" action="ServletModificaBio" method="post">
-            <input type="text" rows="10" cols="30" placeholder="Inserire la nuova biografia" name="bio">
+            <textarea class="inputtx2" type="text" rows="10" cols="30"name="bio">${produttore.biografia}</textarea>
             <input class="button2" type="submit" value="Inserisci">
             <%-- Codice per l'allert dell'inserimento completato          --%>
             <%Boolean status_bio = (Boolean) session.getAttribute("status_bio");
