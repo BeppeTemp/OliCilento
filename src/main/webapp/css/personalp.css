@@ -5,22 +5,19 @@
 /*Sezione barra di navigazione*/
 
 .navbar {
-    background-color: #414120;
-    ;
+    background-color: red;
     border-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-style: solid;
     margin-top: 10px;
-    width: 95%;
+    width: 80%;
 }
-
 .titlediv {
     margin: 10px;
-    height: 60px;
-    width: fit-content
+    height: 40px;
+    width: 15%;
 }
-
 .buttondiv {
     float: right;
     margin-top: -45px;
@@ -28,44 +25,55 @@
     height: fit-content;
     width: fit-content
 }
-
 .title {
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
 }
-
+.link {
+    text-decoration: none;
+    color: black;
+}
 .link2 {
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
+.button {
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+.button:hover {
+    background-color: rgba(240, 240, 0, 0.678);
+}
+input {
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
 
+    width: 100%;
+}
+input:hover {
+    background-color: rgba(240, 240, 0, 0.678);
+}
+.link:hover {
+    color: black;
+}
 .link2:hover {
     color: rgba(240, 240, 0, 0.678);
     font-size: 20px;
     font-size: x-large;
 }
 
-.button {
-    border-color: black;
-    background-color: white;
-    border-radius: 5px;
-    font-size: medium;
-}
-
-.button:hover {
-    background-color: rgba(240, 240, 0, 0.678);
-}
-
-.link:hover {
-    color: black;
-}
-
 /*Sezione principale della pagina*/
 
 .body {
-    background-color: #666633;
+    background-color: red;
     border-color: black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -74,12 +82,10 @@
     padding-bottom: 30px;
     width: 95%;
 }
-
 .form {
     margin-left: 10px;
     font-size: 18px;
 }
-
 select {
     border-radius: 5px;
     border-color: black;
@@ -87,7 +93,6 @@ select {
     border-width: 2px;
     font-size: medium;
 }
-
 .paragraf {
     width: fit-content;
     height: fit-content;
@@ -111,7 +116,6 @@ select {
     font-weight: bold;
     font-size: medium;
 }
-
 .g1 {
     border-color: black;
     background-color: #414120;
@@ -121,7 +125,6 @@ select {
     height: 200px;
     width: 48%;
 }
-
 .g2 {
     border-color: black;
     background-color: #414120;
@@ -134,7 +137,6 @@ select {
     width: 48%;
     float: right;
 }
-
 .inputtx2 {
     border-color: black;
     background-color: #414120;
@@ -149,7 +151,6 @@ select {
     padding: 5px;
     font-size: medium;
 }
-
 .button2 {
     border-color: black;
     background-color: white;
@@ -158,23 +159,25 @@ select {
     margin-right: 10px;
     font-size: medium;
 }
-
 .button2:hover {
     background-color: rgba(240, 240, 0, 0.678);
 }
 
-footer {
-    position:absolute;
-    width:1200px;
-    height:auto;
-    bottom:-300px;
+/* Sezione del footer*/
 
-    left:48%;
-    margin-left:-600px;
+.footer{
+    background-color: #414120;
+    border-color: black;
+    border-style: solid;
+    border-color: black;
 
-    padding: 10px 20px;
-    background: #666;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    width: 79.2%;
+
+    margin-top: -2px;
+    padding-left: 10px;
+
     color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius:20px
 }

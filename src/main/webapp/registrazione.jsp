@@ -39,13 +39,10 @@
             <input class="button" type="submit" value="Registrati">
         </form>
     </div>
+    <footer class="footer">
+        <p> E-mail: Oli_Cilento@gmail.com</p>
+        <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+    </footer>
 </div>
-<footer>
-    <h3> Oli Cilento</h3>
-
-    <p> E-mail: Oli_Cilento@gmail.com</p>
-
-    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
-</footer>
 </body>
 </html>

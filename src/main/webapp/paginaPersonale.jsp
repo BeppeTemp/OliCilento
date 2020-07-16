@@ -14,9 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/personalp.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <script src="scripts/graficiGoogle.js"></script>
-
 </head>
 <style>
     body {
@@ -33,10 +31,8 @@
     }%>
 <div class="page">
     <div class="navbar">
-
         <div class="titlediv">
             <h1 class="title"><a class="link2" href="index.jsp">OliCilento</a></h1>
-            <h3 class="title">${produttore.nome}  ${produttore.cognome}</h3>
         </div>
         <div class="buttondiv">
             <form action="ServletLogout" method="post">
@@ -45,6 +41,7 @@
         </div>
     </div>
     <div class="body">
+        <h3 class="title">${produttore.nome}  ${produttore.cognome}</h3>
         <h1 class="paragraf">Inserisci Disponibilità:</h1>
         <form class="form" action="ServletInserimentoOlio" method="post">
             <select name="risorse">
@@ -71,7 +68,6 @@
             <%}%>
         </form>
 
-
         <h1 class="paragraf">Statistiche:</h1>
 
         <div class="g1">
@@ -96,7 +92,6 @@
             </select>
             <button type="button" onclick="addRisorse()">Inserisci</button>
         </div>
-
 
         <div class="g2">
             <div id="curve_chart_2" style="width: 500px; height: 200px"></div>
@@ -125,13 +120,10 @@
             <%}%>
         </form>
     </div>
+    <footer class="footer">
+        <p> E-mail: Oli_Cilento@gmail.com</p>
+        <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+    </footer>
 </div>
-<footer>
-    <h3> Oli Cilento</h3>
-
-    <p> E-mail: Oli_Cilento@gmail.com</p>
-
-    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
-</footer>
 </body>
 </html>
