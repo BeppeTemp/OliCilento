@@ -94,10 +94,8 @@
         </div>
 
         <div class="g2">
-
             <div id="curve_chart_2" class="graph"></div>
             <input class="acid" id="acido" type="number" step="0.05" min="0" max="3" placeholder="Acidità (0-3)" value="0">
-
 
             <select id="anno2">
                 <option value="anno" selected>Anno</option>

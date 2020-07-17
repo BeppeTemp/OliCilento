@@ -40,7 +40,6 @@ function search() {
                 $("#b" + object[x].id ).css("background-color", "green");
                 $("#b" + object[x].id ).css("cursor","pointer")
                 $("#i" + object[x].id).css("visibility", "visible");
-
                 var riga = $("<tr class=\"row\">" +
                     "<form action=\"ServletDettagliProduttore\" method=\"post\" id=\"prod_"+ num +"\"></form>" +
                     "<input type=\"hidden\" form=\"prod_"+ num +"\" name=\"id\" value=\"" + object[x].id + "\">" +
