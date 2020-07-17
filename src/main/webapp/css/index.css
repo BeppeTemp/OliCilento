@@ -1,0 +1,229 @@
+.page {
+    margin-left: 15%;
+    font-family: Candara;
+}
+
+/*Sezione barra di navigazione*/
+
+.navbar {
+    background-color: #414120;
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    width: 80%;
+}
+.titlediv {
+    margin: 10px;
+    height: 40px;
+    width: 15%;
+}
+.buttondiv {
+    float: right;
+    margin-top: -45px;
+    margin-right: 10px;
+    height: fit-content;
+    width: fit-content
+}
+.title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link2 {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.button {
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+.button:hover {
+    background-color: rgba(240, 240, 0, 0.678);
+}
+input {
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+
+    width: 100%;
+}
+input:hover {
+    background-color: rgba(240, 240, 0, 0.678);
+}
+.link:hover {
+    color: black;
+}
+.link2:hover {
+    color: rgba(240, 240, 0, 0.678);
+    font-size: 20px;
+    font-size: x-large;
+}
+
+/*Sezione della mappa*/
+
+.map {
+    background-image: url("css/images/cilento.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+    height: 64.4%;
+    margin-top: -2px;
+}
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+}
+
+/*Sezione form e tabella*/
+
+.paragraf {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.form {
+    margin-left: 10px;
+    font-size: 18px;
+}
+select {
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    font-size: medium;
+}
+.textarea {
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #414120;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    width: 45%;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: -50px;
+    float: right;
+}
+.tablediv {
+    background-color: #666633;
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+    margin-top: -5px;
+}
+.table {
+    width: 98%;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+}
+th, td {
+    border-bottom: 2px solid black;
+}
+select:hover{
+    background-color: rgba(240, 240, 0, 0.678);
+}
+.first {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Sezione delle palline*/
+
+.ball {
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px
+}
+#b1 {
+    bottom: 85%;
+    right: 45%;
+}
+#b2 {
+    bottom: 75%;
+    right: 30%;
+}
+#b3 {
+    bottom: 60%;
+    right: 60%;
+}
+#b4 {
+    bottom: 50%;
+    right: 25%;
+}
+#b5 {
+    bottom: 55%;
+    right: 35%;
+}
+#b6 {
+    bottom: 80%;
+    right: 35%;
+}
+#i1 {
+    opacity: 0;
+    visibility: hidden;
+}
+#i2 {
+    opacity: 0;
+    visibility: hidden;
+}
+#i3 {
+    opacity: 0;
+    visibility: hidden;
+}
+#i4 {
+    opacity: 0;
+    visibility: hidden;
+}
+#i5 {
+    opacity: 0;
+    visibility: hidden;
+}
+#i6 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Sezione del Footer */
+
+.footer {
+    background-color: #414120;
+    border-color: black;
+    border-style: solid;
+    border-color: black;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    width: 79.2%;
+
+    margin-top: -2px;
+    padding-left: 10px;
+
+    color: white;
+}
