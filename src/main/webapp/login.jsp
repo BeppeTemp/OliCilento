@@ -30,9 +30,11 @@
     <div class="main">
         <h1 class="paragraf">Login</h1>
 
-        <p style="color: white">Usare le seguenti credenziali per il testing:</p>
-        <p style="color: white">Vincenzo.Malandrino@gmail.com</p>
-        <p style="color: white">123456789</p>
+        <div class="testdiv">
+            <p class="test">Usare le seguenti credenziali per il testing:</p>
+            <p class="test">Vincenzo.Malandrino@gmail.com</p>
+            <p class="test">123456789</p>
+        </div>
 
         <%Boolean error = (Boolean) session.getAttribute("error");
             if(error != null && error.booleanValue()){
@@ -46,16 +48,10 @@
             <input class="button" type="submit" value="Login">
         </form>
     </div>
+    <footer class="footer">
+        <p> E-mail: Oli_Cilento@gmail.com</p>
+        <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+    </footer>
 </div>
-<footer>
-    <h3> Oli Cilento</h3>
-
-    <p> E-mail: Oli_Cilento@gmail.com</p>
-
-    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
-</footer>
-</body>
-</html>
-
 </body>
 </html>

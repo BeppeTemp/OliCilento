@@ -75,9 +75,7 @@
     </div>
     <div class="tablediv">
         <h1 class="paragraf">Ricerca produttore:</h1>
-
-
-        <select name="Quantità" id="risorsa">
+        <select name="Quantità" id="risorsa" style="margin-left: 10px;">
             <option class="option" value="null">Quantità Ricercata</option>
             <option value="10">10</option>
             <option value="20">20</option>
@@ -99,20 +97,11 @@
             <tr><td class="first" onclick="sortByName()">Nome</td><td class="first" onclick="sortByAnni()">Età</td><td class="first" onclick="sortByRisorse()">Quantità Disponibile</td><td class="first" onclick="sortByTelefono()">Numero di telefono</td></tr>
 
         </table>
-
-
-
     </div>
+    <footer class="footer">
+        <p> E-mail: Oli_Cilento@gmail.com</p>
+        <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+    </footer>
 </div>
-
-
-<footer>
-    <h3> Oli Cilento</h3>
-
-    <p> E-mail: Oli_Cilento@gmail.com</p>
-
-    <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
-</footer>
-
 </body>
 </html>

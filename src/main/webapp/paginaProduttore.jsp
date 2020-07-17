@@ -45,17 +45,13 @@
             <div class="img">
                 <img class="image" src="css/images/imgprofile.jpg">
             </div>
-            <h1 class="paragraf">Biografia:</h1>
+            <h1 class="paragraf" style="margin-left: 10px;">Biografia:</h1>
             <p class="textarea">${informazioni.biografia}</p>
-
         </div>
+        <footer class="footer">
+            <p> E-mail: Oli_Cilento@gmail.com</p>
+            <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
+        </footer>
     </div>
-    <footer>
-        <h3> Oli Cilento</h3>
-
-        <p> E-mail: Oli_Cilento@gmail.com</p>
-
-        <p>@Copyright - 2020 Progetto di: Giuseppe Arienzo e Cocchinone Lorenzo Paolo.</p>
-    </footer>
 </body>
 </html>
