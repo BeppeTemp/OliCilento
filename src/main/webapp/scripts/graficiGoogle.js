@@ -42,9 +42,11 @@ function drawChart_1(){
         legend: { position: 'bottom' }
     };
 
+    var view = new google.visualization.DataView(data_1);
+    view.setRows(data_1.getSortedRows({column: 0}));
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart_1'));
-    chart.draw(data_1, options);
+    chart.draw(view, options);
 }
 
 
@@ -56,9 +58,12 @@ function drawChart_2(){
         legend: { position: 'bottom' }
     };
 
+    var view = new google.visualization.DataView(data_2);
+    view.setRows(data_2.getSortedRows({column: 0}));
+
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart_2'));
-    chart.draw(data_2, options);
+    chart.draw(view, options);
 }
 
 
